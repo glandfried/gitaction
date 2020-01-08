@@ -18,4 +18,8 @@ Additional labels for pre-release and build metadata are available as extensions
 
 ### [Large binaries files](https://help.github.com/en/github/managing-large-files/distributing-large-binaries)
 
+#### [Release](https://help.github.com/en/github/administering-a-repository/creating-releases)
+
+You need to release to provide packaged software and binary files for other people to use.
+
 
