@@ -53,6 +53,8 @@ Your repository should now be below the size.
 
 ### [Large binaries files](https://help.github.com/en/github/managing-large-files/distributing-large-binaries)
 
-#### [Release]()
+### [Release](https://help.github.com/en/github/administering-a-repository/creating-releases)
+
+#### [Release API](https://developer.github.com/v3/repos/releases/)
 
 
