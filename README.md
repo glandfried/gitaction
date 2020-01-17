@@ -172,6 +172,7 @@ To get started with Git LFS, the following commands can be used.
 
 ### [Release](https://help.github.com/en/github/administering-a-repository/creating-releases)
 
-#### [Release API](https://developer.github.com/v3/repos/releases/)
-
+```
+hub release create -a prebuilt.zip -m 'release title' tag-name
+```
 
