@@ -1,4 +1,4 @@
-install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/local/bin/git-hub-release /usr/local/bin/git-submodule-rm
+install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/local/bin/git-hub-release /usr/local/bin/git-hub-release-add /usr/local/bin/git-submodule-rm
 	
 /usr/local/bin/git-large-files:
 	sudo cp -f git-large-files /usr/local/bin/git-large-files
