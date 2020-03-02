@@ -25,4 +25,3 @@ See de source code for details.
 0. git-hub-release: create a new release in a Github project (Require ```hub```)
 0. git-hub-release-add: add a file to an existing release Github project (Require ```hub```)
 0. git-submodule-rm: safely remove a submodule in a git repository.
-

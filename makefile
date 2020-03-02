@@ -1,4 +1,4 @@
-install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/local/bin/git-hub-release /usr/local/bin/git-hub-release-add /usr/local/bin/git-submodule-rm
+install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/local/bin/git-hub-release /usr/local/bin/git-hub-release-add /usr/local/bin/git-submodule-rm /usr/local/bin/git-lab-release-file
 	
 /usr/local/bin/git-large-files:
 	sudo cp -f git-large-files.sh /usr/local/bin/git-large-files
@@ -17,6 +17,10 @@ install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/l
 /usr/local/bin/git-submodule-rm:
 	sudo cp -f git-submodule-rm.sh /usr/local/bin/git-submodule-rm
 	sudo chmod +x /usr/local/bin/git-submodule-rm
+
+/usr/local/bin/git-lab-release-file:
+	sudo cp -f git-lab-release-file.sh /usr/local/bin/git-lab-release-file
+	sudo chmod +x /usr/local/bin/git-lab-release-file
 uninstall:
 	- sudo rm -f /usr/local/bin/git-large-files
 	- sudo rm -f /usr/local/bin/git-large-files-rm
