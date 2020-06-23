@@ -21,6 +21,11 @@ install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/l
 /usr/local/bin/git-lab-release-file:
 	sudo cp -f git-lab-release-file.sh /usr/local/bin/git-lab-release-file
 	sudo chmod +x /usr/local/bin/git-lab-release-file
+
+/usr/local/bin/git-mirror:
+	sudo cp -f git-mirror.sh /usr/local/bin/git-mirror
+	sudo chmod +x /usr/local/bin/git-mirror
+
 uninstall:
 	- sudo rm -f /usr/local/bin/git-large-files
 	- sudo rm -f /usr/local/bin/git-large-files-rm
