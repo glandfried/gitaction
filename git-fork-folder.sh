@@ -1,6 +1,9 @@
 #!/bin/bash
 # see https://github.community/t/adding-a-folder-from-one-repo-to-another/781
 
+# Example
+# git fork-folder git@github:.../repo.git folder where
+
 source=$1
 folder=$2
 path=$3
