@@ -26,6 +26,9 @@ install: /usr/local/bin/git-large-files /usr/local/bin/git-large-files-rm /usr/l
 	sudo cp -f git-mirror.sh /usr/local/bin/git-mirror
 	sudo chmod +x /usr/local/bin/git-mirror
 
+/usr/local/bin/git-cat-file:
+	sudo cp -f git-cat-file.sh /usr/local/bin/git-cat-file
+	sudo chmod +x /usr/local/bin/git-cat-file
 uninstall:
 	- sudo rm -f /usr/local/bin/git-large-files
 	- sudo rm -f /usr/local/bin/git-large-files-rm
