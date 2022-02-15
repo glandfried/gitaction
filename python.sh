@@ -7,3 +7,5 @@ python3 -m build
 #dist/
 #  example-package-YOUR-USERNAME-HERE-0.0.1-py3-none-any.whl
 #  example-package-YOUR-USERNAME-HERE-0.0.1.tar.gz
+# Add token into Home/.pypir
+python3 -m twine upload dist/*
